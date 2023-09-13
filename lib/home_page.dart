@@ -39,6 +39,9 @@ class _HomePageState extends State<HomePage> {
                 if (contador<nombres.length-1) {
                   contador++;
                   setState(() {});
+                }else{
+                  contador=0;
+                  setState(() {});
                 }
               }, 
               child: Text("Boton")
